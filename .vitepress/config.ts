@@ -11,7 +11,7 @@ const { posts, rewrites } = await usePosts({
 });
 
 export default defineConfigWithTheme<ThemeConfig>({
-  base: '/CharrammaBlog/',
+  // base: '/CharrammaBlog/',
   title: "Charramma的赛博自留地",
   titleTemplate: "Charramma's Blog",
   description: '我随便写写，你随便看看',
